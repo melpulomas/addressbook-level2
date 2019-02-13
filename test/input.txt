@@ -151,6 +151,7 @@
   # changes correct person with correct number
   change 2
   777777
+  list
 
 ##########################################################
 # test clear command
