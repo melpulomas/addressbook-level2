@@ -55,6 +55,8 @@ public class ChangeCommand extends Command {
             return new CommandResult(MESSAGE_DUPLICATE_PERSON);
         } catch (IllegalValueException ive) {
             throw new RuntimeException("Phone number is invalid");
+        } catch (IndexOutOfBoundsException ie) {
+            return new CommandResult(Messages.MESSAGE_INVALID_PERSON_DISPLAYED_INDEX);
         }
     }
 }

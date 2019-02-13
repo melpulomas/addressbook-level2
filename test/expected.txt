@@ -290,6 +290,13 @@
 || 
 || 2 persons listed!
 || ===================================================
+|| Enter command: || [Command entered:  change 3]
+|| The person index provided is invalid
+|| ===================================================
+|| Enter command: || [Command entered:  change 2]
+|| Enter new Number:
+|| Person number changed: Dickson Ee Phone: 777777 Address: 444, delta street Tags: [friends]
+|| ===================================================
 || Enter command: || [Command entered:  clear]
 || Address book has been cleared!
 || ===================================================
